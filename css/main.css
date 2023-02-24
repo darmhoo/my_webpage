@@ -9,7 +9,7 @@
 /* ==========================================================================
    Base styles: opinionated defaults
    ========================================================================== */
-
+   @import url('https://fonts.googleapis.com/css2?family=Labrada:wght@700&display=swap');
 html {
     color: #222;
     font-size: 1em;
@@ -111,9 +111,98 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+body{
+    padding: 2em 5em;
+    background-color: #CBDAE1;
+    opacity: 1;
 
+}
+header{
+    display: flex;
+    justify-content:  space-between;
+    align-items: baseline;
+}
+.logo{
+    font-family: 'Labrada', serif;
+    font-size: 1.5em;
+    color: #947E76
+}
+.nav ul{
+    margin-top: 0;
+    display: flex;
+    font-size: 1.2em;
+    justify-content: space-around;
+}
+.nav li{
+    list-style-type: none;
+    font-weight: 600;
+    margin: 0 .9em;
+    color: #948D76;
+    font-size: 1em;
+}
+header .link{
+    background-color: #E0D8BF;
+    font-weight: bold;
+    color: #947E76;
+    padding: .3em .6em;
+    cursor: pointer;
+}
+.hero{
+    display: flex;
+    background-color: #CBDAE1;
+    margin: 2em 0;
+    height: 80%;
 
+}
+.hero-text{
+    flex-basis: 55%;
+    flex-grow: 1;
+}
+.hero-text h2{
+    font-size: 4em;
+    color: #948D76;
+    line-height: 1.1em;
+    margin-top: .2em;
 
+}
+h2 i{
+    color: darkslateblue;
+}
+.hero-image{
+    background-color: #CBDAE1;
+    flex-basis: 45%;
+    flex-grow: 1;
+
+}
+.hero-image img{
+    display: block;
+    width: 480px;
+    /* margin: auto auto; */
+    border-radius: 1em;
+    float: right;
+}
+.hire-button{
+    padding: .6em .9em;
+    background-color: darkslateblue;
+    color: white;
+    border: 0;
+    border-radius: .2em;
+}
+.recent-works{
+    flex-wrap: nowrap;
+    display: flex;
+    justify-content: space-between;
+}
+.recent-works img{
+    width: 98%;
+}
+.item-text{
+    display: flex;
+    justify-content: space-between;
+}
+.item{
+    margin: 1.2em 0.5em;
+}
 
 
 
