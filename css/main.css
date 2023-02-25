@@ -112,11 +112,18 @@ textarea {
    Author's custom styles
    ========================================================================== */
 body{
-    padding: 2em 5em;
+    /* padding: 2em 5em;
     background-color: #CBDAE1;
-    opacity: 1;
+    opacity: 1; */
 
 }
+.content
+{
+    padding: 2em 5em;
+    background-color: #CBDAE1;
+
+}
+
 header{
     display: flex;
     justify-content:  space-between;
@@ -149,7 +156,7 @@ header .link{
 }
 .hero{
     display: flex;
-    background-color: #CBDAE1;
+    /* background-color: #CBDAE1; */
     margin: 2em 0;
     height: 80%;
 
@@ -169,7 +176,7 @@ h2 i{
     color: darkslateblue;
 }
 .hero-image{
-    background-color: #CBDAE1;
+    /* background-color: #CBDAE1; */
     flex-basis: 45%;
     flex-grow: 1;
 
